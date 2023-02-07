@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+  --cor-preta:#141414;
+  --cor-branca:white;
+  --cor-cinza: gray;
+}
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: #141414;
+  background-color: var(--cor-preta);
 }
 
 h1 {
@@ -12,7 +17,7 @@ h1 {
   font-size: 45px;
   text-align: center;
   margin-top: 8%;
-  color: white;
+  color: var(--cor-branca);
 }
 
 img {
@@ -35,14 +40,14 @@ img {
   font-size: 30px;
   font-family: 'Bebas Neue', cursive;
   cursor: pointer;
-  color: gray;
+  color: var(--cor-cinza);
 }
 
 .btn {
   cursor: pointer;
   width: 200px;
   font-size: 20px;
-  color: gray;
+  color: var(--cor-cinza);
   border: 2px solid;
   border-radius: 4%;
 }
@@ -57,9 +62,12 @@ span {
 .btn:hover {
   display: flex;
   justify-content: center;
-  color: white;
+  color: var(--cor-branca)
 }
 
 .texto:hover{
-  color: white;
+  color: var(--cor-branca);
+}
+a{
+  text-decoration: none;
 }

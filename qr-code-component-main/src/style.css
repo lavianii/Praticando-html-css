@@ -1,0 +1,45 @@
+*{
+  font-family: 'Bebas Neue', cursive;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+h1{
+  font-size: 20px;
+  text-align: center;
+  color: hsl(218, 44%, 22%)
+}
+p{
+  font-size: 15px;
+  text-align: center;
+  color: gray;
+}
+.imagem{
+  width: 250px;
+  border-radius: 5%;
+}
+
+.item{
+  height: 400px;
+  width: 260px;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%)
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
